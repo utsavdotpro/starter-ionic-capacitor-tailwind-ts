@@ -6,8 +6,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "ios": "npx ionic cap run ios -livereload",
+    "build:ios": "npx ionic cap build ios",
+    "android": "npx ionic cap run android -livereload",
+    "build:android": "npx ionic cap build android",
+    "sync": "npx cap sync",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "yarn build && yarn sync"
   },
   "eslintConfig": {
     "extends": [
@@ -27,6 +33,7 @@
     "@capacitor/app": "5.0.2",
     "@capacitor/core": "5.0.3",
     "@capacitor/haptics": "5.0.2",
+    "@capacitor/ios": "5.0.3",
     "@capacitor/keyboard": "5.0.2",
     "@capacitor/status-bar": "5.0.2",
     "@ionic/react": "^7.0.0",
@@ -64,6 +71,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "5.0.3",
+    "@ionic/cli": "^7.1.1",
     "tailwindcss": "^3.3.2",
     "tailwindcss-safe-area": "^0.2.2"
   },
