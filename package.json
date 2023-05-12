@@ -63,7 +63,8 @@
     "workbox-streams": "^5.1.4"
   },
   "devDependencies": {
-    "@capacitor/cli": "5.0.3"
+    "@capacitor/cli": "5.0.3",
+    "tailwindcss": "^3.3.2"
   },
   "description": "Starter template for Ionic Capacitor app with TailwindCSS in TypeScript"
 }
