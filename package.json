@@ -1,6 +1,7 @@
 {
   "name": "starter-ionic-capacitor-tailwind-ts",
   "version": "0.0.1",
+  "author": "utsavdotpro",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -64,5 +65,5 @@
   "devDependencies": {
     "@capacitor/cli": "5.0.3"
   },
-  "description": "An Ionic project"
+  "description": "Starter template for Ionic Capacitor app with TailwindCSS in TypeScript"
 }
