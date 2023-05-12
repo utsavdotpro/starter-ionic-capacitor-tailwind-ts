@@ -1,0 +1,7 @@
+{
+  "name": "starter-ionic-capacitor-tailwind-ts",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
