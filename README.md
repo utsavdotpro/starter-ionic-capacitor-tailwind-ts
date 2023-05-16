@@ -85,3 +85,17 @@ yarn build:android # generate the production build & open in Android Studio
 |   |-- theme                 ℹ️ keep your util functions
 ```
 
+## How to's
+
+### Update App Logo
+
+> https://github.com/ionic-team/capacitor-assets#usage
+
+- Create following three variants of the logo in the `resources/`
+  - icon-foreground.png
+  - icon-background.png
+  - icon-only.png - actual logo with background
+- Run the following command:
+  ```bash
+  npx @capacitor/assets generate
+  ```
