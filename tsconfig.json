@@ -1,5 +1,22 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@elements/*": ["common/components/elements/*"],
+      "@components/*": ["common/components/*"],
+      "@hoc/*": ["common/hoc/*"],
+      "@hooks/*": ["common/hooks/*"],
+      "@layouts/*": ["common/layouts/*"],
+      "@sections/*": ["common/sections/*"],
+      "@config/*": ["core/config/*"],
+      "@constants/*": ["core/constants/*"],
+      "@appTypes/*": ["core/types/*"],
+      "@utils/*": ["core/utils/*"],
+      "@lib/*": ["lib/*"],
+      "@modules/*": ["modules/*"],
+      "@pages/*": ["pages/*"],
+      "@theme/*": ["theme/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "types": ["vite/client", "vite-plugin-svgr/client"],
