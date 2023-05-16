@@ -82,7 +82,7 @@ yarn build:android # generate the production build & open in Android Studio
 |   |-- lib
 |   |-- modules
 |   |-- pages
-|   |-- theme                 ℹ️ keep your util functions
+|   |-- theme
 ```
 
 ## How to's
