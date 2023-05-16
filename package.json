@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "vite --host",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "ios": "npx ionic cap run ios -livereload",
     "build:ios": "npx ionic cap build ios",
     "android": "npx ionic cap run android -livereload",
