@@ -5,10 +5,11 @@ A starter template for Ionic + Capacitor with Tailwind in TypeScript with an opi
 
 ### Technologies
 
-- [Ionic](https://ionicframework.com/) v7
-- [Capacitor](https://capacitorjs.com/) v5
-- [Tailwind](https://tailwindcss.com) v3
-- [TypeScript](https://typescriptlang.org) v4
+[![](https://img.shields.io/badge/Ionic-v7-176bff?style=for-the-badge&logo=ionic)](https://ionicframework.com/)
+[![](https://img.shields.io/badge/Capacitor-v5-119eff?style=for-the-badge&logo=capacitor)](https://capacitorjs.com/)
+[![](https://img.shields.io/badge/React-v18-149eca?style=for-the-badge&logo=react)](https://react.dev/)
+[![](https://img.shields.io/badge/Tailwind-v3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
+[![](https://img.shields.io/badge/TypeScript-v4-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
 
 ---
 
