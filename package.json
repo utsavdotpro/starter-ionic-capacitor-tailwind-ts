@@ -4,8 +4,8 @@
   "author": "utsavdotpro",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite --host",
+    "build": "vite build",
     "ios": "npx ionic cap run ios -livereload",
     "build:ios": "npx ionic cap build ios",
     "android": "npx ionic cap run android -livereload",
@@ -13,7 +13,7 @@
     "sync": "npx cap sync",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
     "eject": "react-scripts eject",
-    "postinstall": "yarn build && yarn sync"
+    "postinstall": "yarn sync"
   },
   "eslintConfig": {
     "extends": [
@@ -54,7 +54,6 @@
     "react-dom": "^18.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.0",
     "typescript": "^4.1.3",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.4",
@@ -73,8 +72,14 @@
   "devDependencies": {
     "@capacitor/cli": "5.0.3",
     "@ionic/cli": "^7.1.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
-    "tailwindcss-safe-area": "^0.2.2"
+    "tailwindcss-safe-area": "^0.2.2",
+    "vite": "^4.3.6",
+    "vite-plugin-svgr": "^3.2.0",
+    "vite-tsconfig-paths": "^4.2.0"
   },
   "description": "Starter template for Ionic Capacitor app with TailwindCSS in TypeScript"
 }

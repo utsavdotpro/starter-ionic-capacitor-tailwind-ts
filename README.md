@@ -10,6 +10,7 @@ A starter template for Ionic + Capacitor with Tailwind in TypeScript with an opi
 [![](https://img.shields.io/badge/React-v18-149eca?style=for-the-badge&logo=react)](https://react.dev/)
 [![](https://img.shields.io/badge/Tailwind-v3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![](https://img.shields.io/badge/TypeScript-v4-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
+[![](https://img.shields.io/badge/Vite-v4-646cff?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 
 ---
 
