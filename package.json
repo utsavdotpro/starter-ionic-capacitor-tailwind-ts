@@ -11,8 +11,6 @@
     "android": "npx ionic cap run android -livereload",
     "build:android": "npx ionic cap build android",
     "sync": "npx cap sync",
-    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
-    "eject": "react-scripts eject",
     "postinstall": "yarn sync"
   },
   "eslintConfig": {
