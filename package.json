@@ -7,11 +7,12 @@
     "start": "vite dev --port 3000 --host",
     "build": "vite build",
     "ios": "npx ionic capacitor run ios --livereload --external --port 3000",
-    "build:ios": "npx ionic cap build ios",
+    "build:ios": "npx ionic capacitor build ios",
     "android": "npx ionic capacitor run android --livereload --external --port 3000",
-    "build:android": "npx ionic cap build android",
+    "build:android": "npx ionic capacitor build android",
     "ionic:serve": "yarn start",
-    "sync": "npx cap sync",
+    "ionic:build": "yarn build",
+    "sync": "npx ionic capacitor sync",
     "postinstall": "yarn sync"
   },
   "eslintConfig": {
