@@ -38,8 +38,7 @@ degit utsavdotpro/starter-ionic-capacitor-tailwind-ts
 
 Prepare development environment
 ```bash
-yarn install
-yarn sync # sync the assets with native projects
+yarn install # install node dependencies & sync the assets with native projects
 ```
 
 ### Working with Web
