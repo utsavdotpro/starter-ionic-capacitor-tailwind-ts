@@ -30,11 +30,11 @@
     "iOS >=14"
   ],
   "dependencies": {
-    "@capacitor/android": "5.0.3",
+    "@capacitor/android": "5.0.4",
     "@capacitor/app": "5.0.2",
-    "@capacitor/core": "5.0.3",
+    "@capacitor/core": "5.0.4",
     "@capacitor/haptics": "5.0.2",
-    "@capacitor/ios": "5.0.3",
+    "@capacitor/ios": "5.0.4",
     "@capacitor/keyboard": "5.0.2",
     "@capacitor/status-bar": "5.0.2",
     "@ionic/react": "^7.0.0",
@@ -70,7 +70,7 @@
     "workbox-streams": "^5.1.4"
   },
   "devDependencies": {
-    "@capacitor/cli": "5.0.3",
+    "@capacitor/cli": "5.0.4",
     "@ionic/cli": "^7.1.1",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
