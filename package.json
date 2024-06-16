@@ -10,10 +10,10 @@
     "build:ios": "npx ionic capacitor build ios",
     "android": "npx ionic capacitor run android --livereload --external --port 3000",
     "build:android": "npx ionic capacitor build android",
-    "ionic:serve": "yarn start",
-    "ionic:build": "yarn build",
+    "ionic:serve": "pnpm start",
+    "ionic:build": "pnpm build",
     "sync": "npx ionic capacitor sync",
-    "postinstall": "yarn sync"
+    "postinstall": "pnpm sync"
   },
   "eslintConfig": {
     "extends": [
