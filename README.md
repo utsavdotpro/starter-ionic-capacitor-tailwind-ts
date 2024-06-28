@@ -41,28 +41,28 @@ degit utsavdotpro/starter-ionic-capacitor-tailwind-ts
 Prepare development environment
 
 ```bash
-yarn install # install node dependencies & sync the assets with native projects
+pnpm install # install node dependencies & sync the assets with native projects
 ```
 
 ### Working with Web
 
 ```bash
-yarn start # start the development server
-yarn build # generate the production build
+pnpm start # start the development server
+pnpm build # generate the production build
 ```
 
 ### Working with iOS
 
 ```bash
-yarn ios # start the project in simulator
-yarn build:ios # generate the production build & open in Xcode
+pnpm ios # start the project in simulator
+pnpm build:ios # generate the production build & open in Xcode
 ```
 
 ### Working with Android
 
 ```bash
-yarn android # start the project in emulator
-yarn build:android # generate the production build & open in Android Studio
+pnpm android # start the project in emulator
+pnpm build:android # generate the production build & open in Android Studio
 ```
 
 ## Project Structure
@@ -83,7 +83,7 @@ yarn build:android # generate the production build & open in Android Studio
 |   |-- core
 |   |   |-- config            ℹ️ keep your configuration files
 |   |   |-- constants
-|   |   |-- types
+|   |   |-- interfaces
 |   |   |-- utils
 |   |-- lib
 |   |-- pages                 ℹ️ pages & their components

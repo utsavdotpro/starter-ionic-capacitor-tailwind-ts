@@ -10,7 +10,7 @@
       "@sections/*": ["common/sections/*"],
       "@config/*": ["core/config/*"],
       "@constants/*": ["core/constants/*"],
-      "@appTypes/*": ["core/types/*"],
+      "@interfaces/*": ["core/interfaces/*"],
       "@utils/*": ["core/utils/*"],
       "@lib/*": ["lib/*"],
       "@modules/*": ["modules/*"],
@@ -32,7 +32,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
   },
-  "include": ["src"]
+  "include": ["src"],
 }
