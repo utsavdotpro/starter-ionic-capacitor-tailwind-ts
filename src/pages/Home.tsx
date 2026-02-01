@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       </IonHeader> */}
 
       <IonContent fullscreen>
-        <div className="p-4 font-bold">Hello from Tailwind!</div>
+        <div className="p-4 font-bold text-red-500">Hello from Tailwind!</div>
       </IonContent>
     </IonPage>
   );
