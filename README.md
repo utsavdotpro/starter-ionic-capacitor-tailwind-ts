@@ -6,12 +6,14 @@ A starter template for Ionic + Capacitor with Tailwind in TypeScript with an opi
 
 ### Technologies
 
-[![](https://img.shields.io/badge/Ionic-v7-176bff?style=for-the-badge&logo=ionic)](https://ionicframework.com/)
-[![](https://img.shields.io/badge/Capacitor-v6-119eff?style=for-the-badge&logo=capacitor)](https://capacitorjs.com/)
-[![](https://img.shields.io/badge/React-v18-149eca?style=for-the-badge&logo=react)](https://react.dev/)
-[![](https://img.shields.io/badge/Tailwind-v3-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
+[![](https://img.shields.io/badge/Ionic-v8-176bff?style=for-the-badge&logo=ionic)](https://ionicframework.com/)
+[![](https://img.shields.io/badge/Capacitor-v8-119eff?style=for-the-badge&logo=capacitor)](https://capacitorjs.com/)
+[![](https://img.shields.io/badge/React-v19-149eca?style=for-the-badge&logo=react)](https://react.dev/)
+[![](https://img.shields.io/badge/React_Router-v5-ca4245?style=for-the-badge&logo=reactrouter)](https://reactrouter.com/)
+[![](https://img.shields.io/badge/Tailwind-v4-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![](https://img.shields.io/badge/TypeScript-v5-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
 [![](https://img.shields.io/badge/Vite-v7-646cff?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![](https://img.shields.io/badge/Workbox-v7-4285f4?style=for-the-badge&logo=google)](https://developer.chrome.com/docs/workbox/)
 
 ---
 
