@@ -32,15 +32,15 @@
     "iOS >=14"
   ],
   "dependencies": {
-    "@capacitor/android": "^6.1.0",
+    "@capacitor/android": "^8.0.2",
     "@capacitor/app": "^6.0.0",
-    "@capacitor/core": "^6.1.0",
+    "@capacitor/core": "^8.0.2",
     "@capacitor/haptics": "^6.0.0",
-    "@capacitor/ios": "^6.1.0",
+    "@capacitor/ios": "^8.0.2",
     "@capacitor/keyboard": "^6.0.1",
     "@capacitor/status-bar": "^6.0.0",
-    "@ionic/react": "7.0.10",
-    "@ionic/react-router": "7.0.10",
+    "@ionic/react": "8.7.17",
+    "@ionic/react-router": "8.7.17",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^12.8.3",
@@ -71,8 +71,8 @@
     "workbox-streams": "^5.1.4"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.1.0",
-    "@ionic/cli": "^7.2.0",
+    "@capacitor/cli": "^8.0.2",
+    "@ionic/cli": "^7.2.1",
     "@types/node": "^20.14.8",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
